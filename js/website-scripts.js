@@ -27,9 +27,9 @@ var main = function(){
 
 	$(document).ready(function(){
 		$('#description').hide();
-		$('#description').slideDown(500);
 		$('#down-arrow').hide();
-		$('#down-arrow').slideDown(500);
+		$('#description').slideDown(750);
+		$('#down-arrow').slideDown(750);
 	})
 
 	/* Controls down-arrow for scrolling
