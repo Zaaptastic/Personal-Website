@@ -1,0 +1,90 @@
+#resume-opening {
+	background: url(images/officedesk.jpg) no-repeat center center fixed;
+	/* Set rules to fill background */
+ 	 min-height: 100%;
+ 	 min-width: 1024px;
+	
+  	/* Set up proportionate scaling */
+ 	 width: 100%;
+ 	 height: 670px;
+	
+ 	 /* Set up positioning */
+ 	 top: 0;
+ 	 left: 0;
+}
+
+#overviews {
+	font-family: Helvetica;
+	width: 100%;
+}
+
+
+.section {
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#section-menu {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	color:#A8A8A8 ;
+}
+
+#section-menu ul{
+	margin-left: -30px;
+}
+
+#section-menu li{
+	display: inline;
+	list-style-type: none;
+	padding: 10px 10px;
+	margin: 5px;
+	text-transform: uppercase;
+	font-family: Helvetica;
+	font-size: 20px;
+	border: 2px solid;
+	border-color: transparent;
+}
+
+
+#section-menu li:hover{
+	border-color: gray;
+}
+
+.section-info {
+	display:none;
+	padding-right: 100px;
+}
+
+.visible {
+	display:inline;
+}
+
+.section-title{
+	color: black;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 20px 0px;
+	font-weight: bold;
+}
+
+.section-content{
+	color: gray;
+	font-size: 14px;
+}
+
+td{
+	padding-right: 100px;
+}
+
+.section li{
+	margin: 10px 0px;
+}
+
+.current-section{
+	color: black;
+}

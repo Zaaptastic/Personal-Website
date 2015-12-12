@@ -1,0 +1,74 @@
+body{
+
+	background: rgba(180,180,180,1);
+
+}
+
+#personal-webpage-background {
+		
+	background: url(../images/arnoriver.jpg) no-repeat center center fixed;
+	min-height: 100%;
+	min-width: 100%;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#sigfigcalc-background {
+	background: url(../images/SigFigCalc.png) no-repeat center center fixed;
+	min-height: 100%;
+	min-width: 100%;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.body-content{
+	text-align: center;
+	font-family: helvetica;
+	background: rgba(180,180,180,.9);
+	color: black;
+	margin: 25px 50px;
+	padding: 5px;
+	padding-bottom: 30px;
+	border-radius: 15px;
+}
+
+h1 {
+	font-family: garamond;
+	font-weight: bold;
+}
+
+.skills-used{
+	font-style: italic;
+	font-family: garamond;
+}
+
+.project-info{
+	margin: 50px 100px;
+	font-size: 20px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.site-button{
+	border: 2px solid black;
+	color: black;
+	display: inline-block;
+	padding: 10px 25px;
+	text-transform: uppercase;
+}
+
+.site-button:hover{
+	color: white;
+	background:#282828;
+}
+
+
+
