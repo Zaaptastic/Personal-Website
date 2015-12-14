@@ -42,7 +42,7 @@ var main = function(){
 	});
 
 	$('#down-arrow').hover(function(){
-		$('#down-arrow').animate({bottom: '15px'},500)
+		$('#down-arrow').animate({bottom: '20px'},500)
 	},function(){
 		$('#down-arrow').animate({bottom: '25px'},500)
 	});
