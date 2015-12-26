@@ -132,10 +132,10 @@ html body{
 }
 
 #down-arrow{
-	position: absolute;
-	left: 50%;
-	bottom: 5%;
-    transform: translate(-50%);
+	position: relative;
+	left: 48%;
+	bottom: 25px;
+    //transform: translate(-50%);
 }
 
 #down-arrow img{
