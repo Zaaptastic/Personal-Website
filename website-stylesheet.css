@@ -134,7 +134,7 @@ html body{
 #down-arrow{
 	position: absolute;
 	left: 50%;
-	bottom: 25px;
+	bottom: 5%;
     transform: translate(-50%);
 }
 

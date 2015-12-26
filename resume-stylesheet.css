@@ -52,6 +52,7 @@
 
 #section-menu li:hover{
 	border-color: gray;
+	cursor: pointer;
 }
 
 .section-info {
