@@ -40,6 +40,7 @@ html body{
  	 top: 0;
  	 left: 0;
 	background:rgba(24,24,24,.5);
+	position: relative;
 }
 
 #menu {
@@ -98,7 +99,6 @@ html body{
 	font-family: Helvetica;
 	padding: 25px;
 	margin: 100px;
-	margin-bottom: 200px;
 }
 
 #description-title {
@@ -132,15 +132,16 @@ html body{
 }
 
 #down-arrow{
-	position: relative;
-	left: 48%;
+	position: absolute;
+	left: 50%;
 	bottom: 25px;
-    //transform: translate(-50%);
+    transform: translate(-50%);
 }
 
 #down-arrow img{
 	width: 30px;
 }
+
 
 #down-arrow:hover{
 	cursor: pointer;

@@ -26,6 +26,7 @@
  	 top: 0;
  	 left: 0;
 	background:rgba(24,24,24,.5);
+	position: relative;
 }
 
 #contact-footer-text {
