@@ -7,27 +7,13 @@
 	
   	/* Set up proportionate scaling */
  	 width: 100%;
- 	 height: 700px;
+ 	 height: 670px;
 	
  	 /* Set up positioning */
  	 top: 0;
  	 left: 0;
 }
 
-#contact-shading{
-		min-height: 100%;
- 	 min-width: 1024px;
-	
-  	/* Set up proportionate scaling */
- 	 width: 100%;
- 	 height: 670px;
-	
- 	 /* Set up positioning */
- 	 top: 0;
- 	 left: 0;
-	background:rgba(24,24,24,.5);
-	position: relative;
-}
 
 #contact-footer-text {
 	/* Set rules to fill background */
