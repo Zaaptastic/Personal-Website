@@ -1,4 +1,10 @@
 body{
+
+}
+
+#personal-webpage-background {
+		
+	background: url(../images/arnoriver.jpg) no-repeat center center fixed;
 	min-height: 100%;
 	min-width: 100%;
 	width: 100%;
@@ -6,22 +12,30 @@ body{
 	position: absolute;
 	top: 0;
 	left: 0;
-
-}
-
-#personal-webpage-background {
-		
-	background: url(../images/arnoriver.jpg) no-repeat center center fixed;
 	
 }
 
 #sigfigcalc-background {
-	background: url(../images/SigFigCalc.png) no-repeat center center fixed;
+	background: url(../images/SigFigCalc.jpg) no-repeat center center fixed;
+	min-height: 100%;
+	min-width: 100%;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
 	
 }
 
 #image-encrypt-background {
 	background: url(../images/ImageEncrypt.jpg) no-repeat center center fixed;
+	min-height: 100%;
+	min-width: 100%;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
 	
 }
 
