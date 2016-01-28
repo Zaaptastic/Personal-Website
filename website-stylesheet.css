@@ -10,6 +10,7 @@ html body{
 
 #body{
 	min-height: 100%;
+	max-width: 100%;
 	overflow: auto;
 }
 
@@ -17,7 +18,7 @@ html body{
 	background: url(images/arnoriver.jpg) no-repeat center center fixed;
 	/* Set rules to fill background */
  	 min-height: 100%;
- 	 min-width: 1024px;
+ 	 min-width: 100%;
 	
   	/* Set up proportionate scaling */
  	 width: 100%;
@@ -29,8 +30,8 @@ html body{
 }
 
 #shading{
-		min-height: 100%;
- 	 min-width: 1024px;
+	 min-height: 100%;
+ 	 min-width: 100%;
 	
   	/* Set up proportionate scaling */
  	 width: 100%;
@@ -49,6 +50,11 @@ html body{
 	top: 10px;
 	right: 10px;
 	margin-right: 30px;
+}
+
+#menu-wrapper{
+	width: 100%;
+	position: relative;
 }
 
 #menu a {
@@ -200,5 +206,12 @@ html body{
 	font-size: 12px;
 }
 
-
+@media only screen and (max-width: 450px){
+	#opening{
+		max-width: 100%;
+		height: 50%;
+		min-height: 50%;
+		max-height: 50%;
+	}
+}
 
